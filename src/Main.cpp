@@ -7,7 +7,6 @@
 #include "HTTPProcessor.h"
 #include "Stream.h"
 #include "Main.h"
-#include "../version.h"
 #include <csignal>
 
 #include <string>
@@ -60,7 +59,7 @@ void reeveSIGINT( int signum )
 
 int init_reeve(int argc, char **argv)
 {
-    cout<<"initialising Reeve "<<AutoVersion::FULLVERSION_STRING<<endl;
+    cout<<"initialising Reeve"<<endl;
 
     kernel = new Kernel();
 
