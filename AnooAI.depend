@@ -1,0 +1,1244 @@
+# depslib dependency file v1.0
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\aimlwriter.cpp
+	"AimlWriter.h"
+	<map>
+	<iostream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\aimlwriter.h
+	<string>
+	"Element.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\element.h
+	<iterator>
+	<map>
+	<string>
+	<list>
+	"Pointer.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\pointer.h
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\element.cpp
+	"Element.h"
+	"Utils.h"
+	<iostream>
+	<string.h>
+	<cstring>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\utils.h
+	<algorithm>
+	<string>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\flashresponder.cpp
+	"FlashResponder.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\flashresponder.h
+	<string>
+	"Responder.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\responder.h
+	"Element.h"
+	"Match.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\match.h
+	"Element.h"
+	<string>
+	<vector>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\handler.cpp
+	"Handler.h"
+	"Match.h"
+	"Responder.h"
+	"TemplateProcessor.h"
+	"BrProcessor.h"
+	"IdProcessor.h"
+	"SrProcessor.h"
+	"BotProcessor.h"
+	"GetProcessor.h"
+	"SetProcessor.h"
+	"NameProcessor.h"
+	"SraiProcessor.h"
+	"StarProcessor.h"
+	"ThatProcessor.h"
+	"InputProcessor.h"
+	"LearnProcessor.h"
+	"ThinkProcessor.h"
+	"FormalProcessor.h"
+	"PersonProcessor.h"
+	"RandomProcessor.h"
+	"SentenceProcessor.h"
+	"ThatstarProcessor.h"
+	"ConditionProcessor.h"
+	"LowercaseProcessor.h"
+	"NormalizeProcessor.h"
+	"TopicstarProcessor.h"
+	"UppercaseProcessor.h"
+	"HTTPProcessor.h"
+	"SecureProcessor.h"
+	"JavaScriptProcessor.h"
+	"SubstituteProcessor.h"
+	"SystemProcessor.h"
+	"VersionProcessor.h"
+	"ImpExpProcessor.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\handler.h
+	<map>
+	<string>
+	"AimlProcessor.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\aimlprocessor.h
+	<string>
+	"Element.h"
+	"Match.h"
+	"Responder.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\templateprocessor.h
+	<map>
+	<string>
+	"AimlProcessor.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\brprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422377240 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\kernel.h
+	<string>
+	"Element.h"
+	"PredicateEngine.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\predicateengine.h
+	<utility>
+	<string>
+	<vector>
+	<map>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\idprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\srprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\botprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\getprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+	<iostream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\setprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\nameprocessor.h
+	<string>
+	"AimlProcessor.h"
+	"Kernel.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sraiprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+	<iostream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\starprocessor.h
+	<cstdlib>
+	"AimlProcessor.h"
+	<string>
+	"Utils.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\thatprocessor.h
+	<cstdlib>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\inputprocessor.h
+	<cstdlib>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	<iostream>
+
+1422377371 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\learnprocessor.h
+	<cstdio>
+	<iostream>
+	"AimlProcessor.h"
+	"Substituter.h"
+	"Parser.h"
+	"Kernel.h"
+	"Nodemaster.h"
+	"Utils.h"
+	<dirent.h>
+	<string>
+	<fstream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\substituter.h
+	<algorithm>
+	"Utils.h"
+	<map>
+	<string>
+	<cctype>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\parser.h
+	<string>
+	"SaxParser.h"
+	"Element.h"
+	<stack>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\saxparser.h
+	<string>
+	<iostream>
+	<map>
+	<vector>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\nodemaster.h
+	<map>
+	<vector>
+	<string>
+	"Template.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\template.h
+	<fstream>
+	<string>
+	<iostream>
+	<vector>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\thinkprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\formalprocessor.h
+	"AimlProcessor.h"
+	"StringTokenizer.h"
+	"Kernel.h"
+	<string>
+	<cctype>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\stringtokenizer.h
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\personprocessor.h
+	"AimlProcessor.h"
+	"Substituter.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\randomprocessor.h
+	<cstdlib>
+	<ctime>
+	<iostream>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	<time.h>
+	<stdlib.h>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sentenceprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	<cctype>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\thatstarprocessor.h
+	<cstdlib>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\conditionprocessor.h
+	<algorithm>
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\lowercaseprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\normalizeprocessor.h
+	"AimlProcessor.h"
+	"Substituter.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\topicstarprocessor.h
+	<cstdlib>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\uppercaseprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\httpprocessor.h
+	<string>
+	"AimlProcessor.h"
+	"ServerSocket.h"
+	"Socket.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\serversocket.h
+	<string>
+	"Socket.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\socket.h
+	<string>
+	<vector>
+
+1421264148 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\websocket.cpp
+	<stdio.h>
+	<algorithm>
+	<string>
+	<cstring>
+	<stdlib.h>
+	<csignal>
+	<errno.h>
+	<vector>
+	<unistd.h>
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<iostream>
+	<sys/time.h>
+	"Websocket.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\websocket.h
+	<map>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\secureprocessor.h
+	<iterator>
+	<string>
+	<vector>
+	<algorithm>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	"AimlProcessor.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\javascriptprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	<iostream>
+	<jsapi.h>
+
+1422113713 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\xmlsocketresponder.h
+	<string>
+	"Responder.h"
+	"AimlProcessor.h"
+	"ServerSocket.h"
+	"Socket.h"
+	"Parser.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\substituteprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	"Utils.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\systemprocessor.h
+	<algorithm>
+	<cstdio>
+	<cstring>
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+	<stdio.h>
+	<windows.h>
+	<shellapi.h>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\versionprocessor.h
+	"AimlProcessor.h"
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\impexpprocessor.h
+	"AimlProcessor.h"
+	"Kernel.h"
+	<string>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\httpprocessor.cpp
+	"HTTPProcessor.h"
+	<fstream>
+	"ServerSocket.h"
+	"Socket.h"
+	"SocketHandler.h"
+	<stdlib.h>
+	<string>
+	<unistd.h>
+	"Kernel.h"
+	"TokenProxyListener.h"
+	"Config.h"
+	"Responder.h"
+	"Utils.h"
+	"StringTokenizer.h"
+	"Stream.h"
+	"websocket.h"
+	<iostream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sockethandler.h
+	<map>
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\tokenproxylistener.h
+	<string>
+	"Socket.h"
+
+1422113713 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\logger.h
+	<string>
+	<fstream>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\config.h
+	"Kernel.h"
+	<vector>
+	<string>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\stream.h
+	<map>
+	<string>
+
+1422377406 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\kernel.cpp
+	"Kernel.h"
+	<fstream>
+	<iostream>
+	<strstream>
+	"Match.h"
+	"Utils.h"
+	"Parser.h"
+	"Handler.h"
+	"Responder.h"
+	"Nodemaster.h"
+	"Substituter.h"
+	"StringTokenizer.h"
+	"TemplateProcessor.h"
+	"PreParser.h"
+	"AimlWriter.h"
+	"NodeWalker.h"
+	"SaxParser.h"
+	"Stream.h"
+	"Config.h"
+	"TimeKeeper.h"
+	<dirent.h>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\preparser.h
+	<string>
+	"SaxParser.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\nodewalker.h
+	<string>
+	"Nodemaster.h"
+	"Element.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\timekeeper.h
+	<ctime>
+	<queue>
+	<vector>
+
+1422113713 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\logger.cpp
+	"Logger.h"
+	"Utils.h"
+	<time.h>
+
+1422377672 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\main.cpp
+	"Kernel.h"
+	"Utils.h"
+	"Config.h"
+	"SocketHandler.h"
+	"HTTPProcessor.h"
+	"Stream.h"
+	"Main.h"
+	"../version.h"
+	<csignal>
+	<string>
+	<iostream>
+	<vector>
+	<fstream>
+	<strstream>
+	<iterator>
+	<algorithm>
+	<stdio.h>
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\main.h
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\match.cpp
+	"Match.h"
+	"Nodemaster.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\nodemaster.cpp
+	"Nodemaster.h"
+	"Utils.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\nodewalker.cpp
+	"NodeWalker.h"
+	"AimlWriter.h"
+	"Utils.h"
+	<iostream>
+	<fstream>
+	<algorithm>
+	<map>
+	<vector>
+	<cstring>
+	<cctype>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\parser.cpp
+	"Parser.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\predicateengine.cpp
+	"PredicateEngine.h"
+	"Utils.h"
+	<fstream>
+	<stdlib.h>
+	<iostream>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\preparser.cpp
+	"PreParser.h"
+	<ctime>
+	"Kernel.h"
+	"Template.h"
+	"Nodemaster.h"
+	"Utils.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\saxparser.cpp
+	"SaxParser.h"
+	"Utils.h"
+	"StringTokenizer.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\serversocket.cpp
+	"ServerSocket.h"
+	<iostream>
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<unistd.h>
+	<stdio.h>
+	<fcntl.h>
+	<cstring>
+	"SocketHandler.h"
+	"Compat.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\compat.h
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sha1.cpp
+	"sha1.h"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sha1.h
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\socket.cpp
+	"Socket.h"
+	<winsock2.h>
+	<sys/types.h>
+	<netdb.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	<stdio.h>
+	<errno.h>
+	"SocketHandler.h"
+	<iostream>
+	"websocket.h"
+	"Compat.h"
+	"Utils.h"
+	"Stream.h"
+	<signal.h>
+	<cstring>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\sockethandler.cpp
+	"SocketHandler.h"
+	<iostream>
+	<winsock2.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<netdb.h>
+	<unistd.h>
+	<stdio.h>
+	"Socket.h"
+	"websocket.h"
+	"TimeKeeper.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\stream.cpp
+	<iostream>
+	<map>
+	"Stream.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\stringtokenizer.cpp
+	"StringTokenizer.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\substituter.cpp
+	"Substituter.h"
+	"Utils.h"
+	"StringTokenizer.h"
+	<vector>
+	<iostream>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\template.cpp
+	"Template.h"
+	"Kernel.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\templateprocessor.cpp
+	"TemplateProcessor.h"
+	"Responder.h"
+	"Handler.h"
+	"StringTokenizer.h"
+	<iostream>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\timekeeper.cpp
+	"TimeKeeper.h"
+	<iostream>
+	<time.h>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\tokenproxylistener.cpp
+	"TokenProxyListener.h"
+	<iostream>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\utils.cpp
+	"Utils.h"
+	<set>
+	<string.h>
+	<ctype.h>
+	<time.h>
+	<ext/hash_set>
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\websocket.cpp
+	<stdio.h>
+	<algorithm>
+	<string>
+	<cstring>
+	<stdlib.h>
+	<csignal>
+	<errno.h>
+	<vector>
+	<unistd.h>
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<sys/types.h>
+	<iostream>
+	<sys/time.h>
+	"sha1.h"
+	<map>
+	"websocket.h"
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\wxwindows.cpp
+	"Stream.h"
+	"wx/wxprec.h"
+	"wx/wx.h"
+	"wx/notebook.h"
+	"wx/thread.h"
+	"wx/textctrl.h"
+	"wx/image.h"
+	"wx/splash.h"
+	"wx/xrc/xmlres.h"
+	"Main.h"
+	"wxwindows.h"
+	<iostream>
+	"j_alice_xpm.xpm"
+
+1422376034 c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\wxwindows.h
+	<map>
+	<string>
+
+1422113713 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\xmlsocketresponder.cpp
+	"XmlSocketResponder.h"
+	"Kernel.h"
+	"SocketHandler.h"
+	"TokenProxyListener.h"
+	"Logger.h"
+	<iostream>
+	<stdlib.h>
+	<strstream>
+
+1422377673 c:\users\andrew\documents\websites\anooserve\experiments\anooai\version.h
+
+1422376034 source:c:\users\andrew\documents\websites\anooserve\experiments\anooai\src\speech.cpp
+
+1422124799 c:\users\andrew\documents\websites\anooserve\experiments\festival\src\include\festival.h
+	<cstdlib>
+	<fstream>
+	"EST.h"
+	"EST_cutils.h"
+	"siod.h"
+	"Phone.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est.h
+	"EST_system.h"
+	<cstdlib>
+	"EST_String.h"
+	"EST_string_aux.h"
+	"EST_types.h"
+	"EST_util_class.h"
+	"EST_cutils.h"
+	"EST_io_aux.h"
+	"EST_audio.h"
+	"EST_speech_class.h"
+	"EST_ling_class.h"
+	"EST_sigpr.h"
+	"EST_grammar.h"
+	"EST_stats.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_system.h
+	<windows.h>
+	"win32/EST_defines_win32.h"
+	<sys/types.h>
+	"unix/EST_defines_unix.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\win32\est_defines_win32.h
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\unix\est_defines_unix.h
+
+1416159272 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_string.h
+	<cstring>
+	<iostream>
+	<climits>
+	"EST_Chunk.h"
+	"EST_strcasecmp.h"
+	"EST_bool.h"
+	"EST_Regex.h"
+
+1152363816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_chunk.h
+	<iostream>
+	<climits>
+	<sys/types.h>
+	"EST_walloc.h"
+
+1122935815 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_walloc.h
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_strcasecmp.h
+	<cstdlib>
+	<stdlib.h>
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_bool.h
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_regex.h
+	"EST_String.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_string_aux.h
+	"EST_TList.h"
+	"EST_String.h"
+	"EST_types.h"
+	"EST_rw_status.h"
+
+1288966363 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tlist.h
+	<iostream>
+	"EST_common.h"
+	"EST_UList.h"
+	"EST_TSortable.h"
+	"EST_TIterator.h"
+	"instantiate/EST_TListI.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_common.h
+	"EST_bool.h"
+	<cstdlib>
+	<stdlib.h>
+	<dmalloc.h>
+
+1288966363 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_ulist.h
+	<iostream>
+	"EST_common.h"
+	"EST_String.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tsortable.h
+	"EST_UList.h"
+	"instantiate/EST_TSortableI.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tsortablei.h
+
+1365862631 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_titerator.h
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tlisti.h
+	<iostream>
+	"instantiate/EST_TIteratorI.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_titeratori.h
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_types.h
+	"EST_TList.h"
+	"EST_TVector.h"
+	"EST_String.h"
+	"EST_TKVL.h"
+	"EST_FMatrix.h"
+	"EST_DMatrix.h"
+	"EST_IMatrix.h"
+	"EST_SMatrix.h"
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tvector.h
+	<iostream>
+	"EST_bool.h"
+	"EST_rw_status.h"
+	"instantiate/EST_TVectorI.h"
+	"../base_class/EST_TVector.cc"
+	"../base_class/EST_Tvectlist.cc"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_rw_status.h
+	<cstdio>
+	<cerrno>
+	<stdio.h>
+	<errno.h>
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tvectori.h
+
+1381786757 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\base_class\est_tvector.cc
+	<iostream>
+	<fstream>
+	"EST_TVector.h"
+	"EST_matrix_support.h"
+	"EST_cutils.h"
+	"EST_error.h"
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\base_class\est_matrix_support.h
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_cutils.h
+	"EST_common.h"
+	"EST_walloc.h"
+	"EST_system.h"
+
+1381851365 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_error.h
+	<cstdarg>
+	<cstdio>
+	<stdarg.h>
+	<stdio.h>
+	<setjmp.h>
+	"EST_unix.h"
+	"EST_String.h"
+
+1422125488 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_unix.h
+	"EST_system.h"
+	<unistd.h>
+	<sys/types.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<sys/wait.h>
+	<sys/resource.h>
+	<dirent.h>
+	<io.h>
+	"win32/EST_unix_win32.h"
+
+1422125590 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\win32\est_unix_win32.h
+	<iostream>
+	<windows.h>
+	<stdint.h>
+
+1288966362 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\base_class\est_tvectlist.cc
+	<fstream>
+	"EST_TList.h"
+	"EST_TVector.h"
+	"EST_cutils.h"
+
+1288966363 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tkvl.h
+	<cmath>
+	"EST_TList.h"
+	"instantiate/EST_TKVLI.h"
+	"EST_TIterator.h"
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tkvli.h
+	"instantiate/EST_TListI.h"
+	"instantiate/EST_TIteratorI.h"
+
+1085395758 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_fmatrix.h
+	"EST_TSimpleMatrix.h"
+	"EST_TSimpleVector.h"
+	"EST_Val.h"
+	"EST_Val_defs.h"
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tsimplematrix.h
+	"EST_TMatrix.h"
+	"instantiate/EST_TSimpleMatrixI.h"
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tmatrix.h
+	<iostream>
+	"EST_rw_status.h"
+	"EST_TVector.h"
+	"instantiate/EST_TMatrixI.h"
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tmatrixi.h
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tsimplematrixi.h
+
+1154428483 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tsimplevector.h
+	"EST_TVector.h"
+	"instantiate/EST_TSimpleVectorI.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tsimplevectori.h
+
+1096552166 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_val.h
+	"EST_String.h"
+	"EST_error.h"
+	"EST_Contents.h"
+	"EST_Val_defs.h"
+
+1381785316 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_contents.h
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_val_defs.h
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_dmatrix.h
+	"EST_TSimpleMatrix.h"
+	"EST_TSimpleVector.h"
+	"EST_FMatrix.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_imatrix.h
+	"EST_TSimpleMatrix.h"
+	"EST_TSimpleVector.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_smatrix.h
+	"EST_TSimpleMatrix.h"
+	"EST_TSimpleVector.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_util_class.h
+	"EST_TKVL.h"
+	"EST_Option.h"
+	"EST_TList.h"
+	"EST_TMatrix.h"
+	"EST_TVector.h"
+	"EST_Token.h"
+	"EST_FMatrix.h"
+	"EST_DMatrix.h"
+	"EST_StringTrie.h"
+	"EST_cmd_line.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_option.h
+	"EST_String.h"
+	"EST_TKVL.h"
+	"EST_rw_status.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_token.h
+	<cstdio>
+	"EST_String.h"
+	"EST_common.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_stringtrie.h
+	"EST_String.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_cmd_line.h
+	"EST_String.h"
+	"EST_Option.h"
+	"EST_types.h"
+
+1042486699 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_io_aux.h
+	"EST_unix.h"
+	"EST_common.h"
+	"EST_String.h"
+	"EST_types.h"
+	"Winsock2.h"
+
+1090446888 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_audio.h
+	"EST_Wave.h"
+	"EST_Option.h"
+
+1147771146 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_wave.h
+	<cstdio>
+	"EST_Featured.h"
+	"EST_rw_status.h"
+	"EST_types.h"
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_featured.h
+	"EST_Features.h"
+
+1083628816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_features.h
+	"EST_TKVL.h"
+	"EST_Val.h"
+	"EST_types.h"
+	"EST_TIterator.h"
+	"EST_error.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_speech_class.h
+	"EST_Wave.h"
+	"EST_wave_aux.h"
+	"EST_Track.h"
+	"EST_track_aux.h"
+
+1246641236 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_wave_aux.h
+	"EST_String.h"
+	"EST_Wave.h"
+	"ling_class/EST_Relation.h"
+	"EST_Option.h"
+	"EST_FMatrix.h"
+	"EST_TNamedEnum.h"
+
+1085394420 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation.h
+	"EST_String.h"
+	"EST_TList.h"
+	"EST_TKVL.h"
+	"EST_THash.h"
+	"EST_Val.h"
+	"EST_types.h"
+	"EST_Token.h"
+	"EST_Features.h"
+	"ling_class/EST_Item.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_thash.h
+	<iostream>
+	"EST_String.h"
+	"EST_system.h"
+	"EST_bool.h"
+	"EST_TIterator.h"
+	"instantiate/EST_THashI.h"
+	"instantiate/EST_TStringHashI.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_thashi.h
+	"EST_system.h"
+	"instantiate/EST_TIteratorI.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tstringhashi.h
+
+1152363816 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_item.h
+	"EST_String.h"
+	"EST_Features.h"
+	"ling_class/EST_Item_Content.h"
+	"ling_class/EST_Relation_list.h"
+	"ling_class/EST_Relation_tree.h"
+	"ling_class/EST_Relation_mls.h"
+	"ling_class/EST_FeatureFunctionPackage.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_item_content.h
+	"EST_String.h"
+	"EST_Features.h"
+
+1288966363 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation_list.h
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation_tree.h
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation_mls.h
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_featurefunctionpackage.h
+	"ling_class/EST_Item.h"
+	"EST_THash.h"
+
+1365857394 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tnamedenum.h
+	<cstring>
+	"EST_String.h"
+	"EST_rw_status.h"
+	"instantiate/EST_TNamedEnumI.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\instantiate\est_tnamedenumi.h
+
+1166630197 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_track.h
+	"EST_FMatrix.h"
+	"EST_types.h"
+	"EST_TrackMap.h"
+	"EST_ChannelType.h"
+	"EST_Featured.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_trackmap.h
+	<climits>
+	"EST_TNamedEnum.h"
+	"EST_ChannelType.h"
+	"EST_Handleable.h"
+	"EST_THandle.h"
+
+1246641236 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_channeltype.h
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_handleable.h
+	<climits>
+
+1153345932 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_thandle.h
+	<iostream>
+	"EST_bool.h"
+
+1085397351 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_track_aux.h
+	"EST_FMatrix.h"
+	"EST_TList.h"
+	"ling_class/EST_Relation.h"
+	"EST_Option.h"
+	"EST_Track.h"
+	"EST_TBuffer.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_tbuffer.h
+	"EST_bool.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_ling_class.h
+	"ling_class/EST_Utterance.h"
+	"ling_class/EST_utterance_aux.h"
+	"ling_class/EST_Relation.h"
+	"ling_class/EST_relation_aux.h"
+	"ling_class/EST_relation_compare.h"
+	"ling_class/EST_Item.h"
+	"ling_class/EST_item_aux.h"
+
+1088001113 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_utterance.h
+	"EST_String.h"
+	"EST_TList.h"
+	"ling_class/EST_Relation.h"
+	"ling_class/EST_Item.h"
+	"EST_Features.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_utterance_aux.h
+	"EST_String.h"
+	"EST_types.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation_aux.h
+	"EST_String.h"
+	"EST_Track.h"
+	"ling_class/EST_Utterance.h"
+	"EST_Option.h"
+	"EST_THash.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_relation_compare.h
+
+1085394750 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\ling_class\est_item_aux.h
+	"EST_features_aux.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_features_aux.h
+	"EST_Features.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_sigpr.h
+	"EST_Wave.h"
+	"EST_Track.h"
+	"EST_FMatrix.h"
+	"EST_Option.h"
+	"EST_TNamedEnum.h"
+	"EST_TBuffer.h"
+	"sigpr/EST_filter.h"
+	"sigpr/EST_pitchmark.h"
+	"sigpr/EST_fft.h"
+	"sigpr/EST_sigpr_utt.h"
+	"sigpr/EST_sigpr_frame.h"
+	"sigpr/EST_misc_sigpr.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_filter.h
+	"EST_Wave.h"
+	"EST_FMatrix.h"
+	"EST_Track.h"
+
+1085577760 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_pitchmark.h
+	"EST_Wave.h"
+	"EST_Option.h"
+	"EST_Track.h"
+	"EST_TBuffer.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_fft.h
+	"EST_Wave.h"
+	"EST_Track.h"
+	"EST_FMatrix.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_sigpr_utt.h
+	"sigpr/EST_sigpr_frame.h"
+	"sigpr/EST_Window.h"
+	"EST_Track.h"
+	"EST_Wave.h"
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_sigpr_frame.h
+	"EST_FMatrix.h"
+
+1096446257 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_window.h
+	"EST_TBuffer.h"
+	"EST_Wave.h"
+
+986389887 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\sigpr\est_misc_sigpr.h
+	"EST_Wave.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_grammar.h
+	"EST_Ngrammar.h"
+	"EST_SCFG.h"
+	"EST_WFST.h"
+
+1407420232 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_ngrammar.h
+	<cstdarg>
+	<cstdlib>
+	"EST_String.h"
+	"EST_Val.h"
+	"EST_rw_status.h"
+	"EST_types.h"
+	"EST_FMatrix.h"
+	"EST_TList.h"
+	"EST_StringTrie.h"
+	"EST_simplestats.h"
+	"EST_PST.h"
+	"EST_string_aux.h"
+	"EST_math.h"
+
+1160072651 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_simplestats.h
+	"EST_String.h"
+	"EST_Token.h"
+	"EST_StringTrie.h"
+	"EST_TList.h"
+	"EST_TKVL.h"
+	"EST_types.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_pst.h
+	"EST_simplestats.h"
+	"EST_types.h"
+	"EST_Features.h"
+
+1381946245 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_math.h
+	<cmath>
+	<climits>
+	<cfloat>
+	<math.h>
+	<limits.h>
+	<float.h>
+	<ieeefp.h>
+
+1381787300 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_scfg.h
+	"EST_simplestats.h"
+	"EST_rw_status.h"
+	"EST_TList.h"
+	"siod.h"
+
+1042564480 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\siod.h
+	"EST_String.h"
+	"EST_string_aux.h"
+	"EST_error.h"
+	"EST_Val.h"
+	"siod_defs.h"
+	"siod_est.h"
+
+1085399268 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\siod_defs.h
+
+1381785615 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\siod_est.h
+
+1083628817 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_wfst.h
+	"EST_simplestats.h"
+	"EST_rw_status.h"
+	"EST_Option.h"
+	"EST_TList.h"
+	"EST_TVector.h"
+	"EST_THash.h"
+	"siod.h"
+
+1407432403 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_stats.h
+	"EST_PST.h"
+	"EST_cluster.h"
+	"EST_simplestats.h"
+	"EST_multistats.h"
+	"EST_viterbi.h"
+
+986385332 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_cluster.h
+	"EST_util_class.h"
+
+1246641236 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_multistats.h
+	"EST_FMatrix.h"
+	"EST_types.h"
+
+1085154553 c:\users\andrew\documents\websites\anooserve\experiments\festival\speech_tools\include\est_viterbi.h
+	"EST_cutils.h"
+	"EST_Features.h"
+	"ling_class/EST_Relation.h"
+
+1422124799 c:\users\andrew\documents\websites\anooserve\experiments\festival\src\include\phone.h
+

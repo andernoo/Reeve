@@ -1,0 +1,30 @@
+<aiml version="1.0">
+
+<category>
+<pattern>BOOTSTRAP</pattern>
+<template>
+<think>
+<srai>LOAD AIML TESTING</srai>
+</think>
+</template>
+</category>
+
+<category>
+<pattern>LOAD AIML MAIN</pattern>
+<template>
+<secure>
+<learn>main</learn>
+</secure>
+</template>
+</category>
+
+<category>
+<pattern>LOAD AIML TESTING</pattern>
+<template>
+<secure>
+<learn>testing</learn>
+</secure>
+</template>
+</category>
+
+</aiml>
