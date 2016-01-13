@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B3C9BA13-B6B3-4077-AE66-AB354EAC2D45}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ReeveServer</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="reeve.ini" />
+    <None Include="startup.aiml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AimlWriter.cpp" />
+    <ClCompile Include="src\Element.cpp" />
+    <ClCompile Include="src\FlashResponder.cpp" />
+    <ClCompile Include="src\Handler.cpp" />
+    <ClCompile Include="src\HTTPProcessor.cpp" />
+    <ClCompile Include="src\Kernel.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Match.cpp" />
+    <ClCompile Include="src\Nodemaster.cpp" />
+    <ClCompile Include="src\NodeWalker.cpp" />
+    <ClCompile Include="src\Parser.cpp" />
+    <ClCompile Include="src\PredicateEngine.cpp" />
+    <ClCompile Include="src\PreParser.cpp" />
+    <ClCompile Include="src\SaxParser.cpp" />
+    <ClCompile Include="src\ServerSocket.cpp" />
+    <ClCompile Include="src\sha1.cpp" />
+    <ClCompile Include="src\Socket.cpp" />
+    <ClCompile Include="src\SocketHandler.cpp" />
+    <ClCompile Include="src\speech.cpp" />
+    <ClCompile Include="src\Stream.cpp" />
+    <ClCompile Include="src\StringTokenizer.cpp" />
+    <ClCompile Include="src\Substituter.cpp" />
+    <ClCompile Include="src\Template.cpp" />
+    <ClCompile Include="src\TemplateProcessor.cpp" />
+    <ClCompile Include="src\TimeKeeper.cpp" />
+    <ClCompile Include="src\TokenProxyListener.cpp" />
+    <ClCompile Include="src\Utils.cpp" />
+    <ClCompile Include="src\websocket.cpp" />
+    <ClCompile Include="src\wxwindows.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AimlProcessor.h" />
+    <ClInclude Include="src\AimlWriter.h" />
+    <ClInclude Include="src\BotProcessor.h" />
+    <ClInclude Include="src\BrProcessor.h" />
+    <ClInclude Include="src\Compat.h" />
+    <ClInclude Include="src\ConditionProcessor.h" />
+    <ClInclude Include="src\Config.h" />
+    <ClInclude Include="src\Element.h" />
+    <ClInclude Include="src\FlashResponder.h" />
+    <ClInclude Include="src\FormalProcessor.h" />
+    <ClInclude Include="src\GetProcessor.h" />
+    <ClInclude Include="src\Handler.h" />
+    <ClInclude Include="src\HTTPProcessor.h" />
+    <ClInclude Include="src\IdProcessor.h" />
+    <ClInclude Include="src\ImpExpProcessor.h" />
+    <ClInclude Include="src\InputProcessor.h" />
+    <ClInclude Include="src\JavaScriptProcessor.h" />
+    <ClInclude Include="src\Kernel.h" />
+    <ClInclude Include="src\LearnProcessor.h" />
+    <ClInclude Include="src\LowercaseProcessor.h" />
+    <ClInclude Include="src\Main.h" />
+    <ClInclude Include="src\Match.h" />
+    <ClInclude Include="src\NameProcessor.h" />
+    <ClInclude Include="src\Nodemapper.h" />
+    <ClInclude Include="src\Nodemaster.h" />
+    <ClInclude Include="src\NodeWalker.h" />
+    <ClInclude Include="src\NormalizeProcessor.h" />
+    <ClInclude Include="src\Parser.h" />
+    <ClInclude Include="src\PersonProcessor.h" />
+    <ClInclude Include="src\Pointer.h" />
+    <ClInclude Include="src\PredicateEngine.h" />
+    <ClInclude Include="src\PreParser.h" />
+    <ClInclude Include="src\RandomProcessor.h" />
+    <ClInclude Include="src\Responder.h" />
+    <ClInclude Include="src\SaxParser.h" />
+    <ClInclude Include="src\SecureProcessor.h" />
+    <ClInclude Include="src\SentenceProcessor.h" />
+    <ClInclude Include="src\ServerSocket.h" />
+    <ClInclude Include="src\SetProcessor.h" />
+    <ClInclude Include="src\sha1.h" />
+    <ClInclude Include="src\Socket.h" />
+    <ClInclude Include="src\SocketHandler.h" />
+    <ClInclude Include="src\SraiProcessor.h" />
+    <ClInclude Include="src\SrProcessor.h" />
+    <ClInclude Include="src\StarProcessor.h" />
+    <ClInclude Include="src\Stream.h" />
+    <ClInclude Include="src\StringTokenizer.h" />
+    <ClInclude Include="src\SubstituteProcessor.h" />
+    <ClInclude Include="src\Substituter.h" />
+    <ClInclude Include="src\SystemProcessor.h" />
+    <ClInclude Include="src\Template.h" />
+    <ClInclude Include="src\TemplateProcessor.h" />
+    <ClInclude Include="src\ThatProcessor.h" />
+    <ClInclude Include="src\ThatstarProcessor.h" />
+    <ClInclude Include="src\ThinkProcessor.h" />
+    <ClInclude Include="src\TimeKeeper.h" />
+    <ClInclude Include="src\TokenProxyListener.h" />
+    <ClInclude Include="src\TopicstarProcessor.h" />
+    <ClInclude Include="src\UppercaseProcessor.h" />
+    <ClInclude Include="src\Utils.h" />
+    <ClInclude Include="src\VersionProcessor.h" />
+    <ClInclude Include="src\websocket.h" />
+    <ClInclude Include="src\wxwindows.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
